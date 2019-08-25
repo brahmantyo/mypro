@@ -28,6 +28,6 @@ Route::get('cashflow', 'CashflowController@index');
 Route::get('rugilaba', 'RugiLabaController@index');
 
 Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
+    'auth'     => 'Auth\AuthController',
+    'password' => 'Auth\PasswordController',
 ]);
